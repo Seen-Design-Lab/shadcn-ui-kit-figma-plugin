@@ -1,6 +1,7 @@
 {
   "name": "shadcn-ui-kit-figma-plugin",
   "version": "1.0.0",
+  "type": "module",
   "description": "Figma plugin for shadcn/ui kit",
   "scripts": {
     "build": "vite build",
