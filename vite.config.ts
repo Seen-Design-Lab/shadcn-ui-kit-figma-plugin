@@ -4,6 +4,7 @@ import path from 'path';
 
 export default defineConfig({
     plugins: [react()],
+    base: './',
     build: {
         target: 'esnext',
         assetsInlineLimit: 100000000,
