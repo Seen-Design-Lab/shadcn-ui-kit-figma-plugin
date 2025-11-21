@@ -1,0 +1,27 @@
+{
+  "name": "shadcn-ui-kit-figma-plugin",
+  "version": "1.0.0",
+  "description": "Figma plugin for shadcn/ui kit",
+  "scripts": {
+    "build": "vite build",
+    "dev": "vite",
+    "watch": "vite build --watch"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@figma/plugin-typings": "^1.84.0",
+    "@types/react": "^18.2.48",
+    "@types/react-dom": "^18.2.18",
+    "@vitejs/plugin-react": "^4.2.1",
+    "autoprefixer": "^10.4.22",
+    "postcss": "^8.5.6",
+    "tailwindcss": "^4.1.17",
+    "typescript": "^5.3.3",
+    "vite": "^5.0.12",
+    "vite-plugin-singlefile": "^2.0.1"
+  }
+}
